@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	pb "github.com/rafaelbartolome/micro-test/user-service/proto/user"
+	pb "github.com/rafaelbartolome/micro-test-user-service/proto/user"
 
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
