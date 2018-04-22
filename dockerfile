@@ -15,4 +15,6 @@ RUN mkdir /app
 WORKDIR /app
 COPY --from=builder /go/src/github.com/rafaelbartolome/micro-test-user-cli .
 
+ENTRYPOINT ["./micro-test-user-cli"]
+
 CMD ["./micro-test-user-cli"]
